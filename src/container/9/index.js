@@ -10,6 +10,8 @@ document.addEventListener('visibilitychange', (e) => {
     visibilityStatus.textContent =
       'Статус видимості: Приховано'
 
+    document.body.style.background = 'red'
+
     alert('Стан видимості: Приховано')
   } else {
     visibilityStatus.textContent =

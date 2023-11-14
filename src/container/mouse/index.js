@@ -10,13 +10,13 @@ clickArea.addEventListener('dblclick', (event) => {
 // =====
 
 // Додаємо обробник події для mousedown
-mouseArea.addEventListener('mousedown', (event) => {
+clickArea.addEventListener('mousedown', (event) => {
   console.log('Подія mousedown: Кнопку миші натиснуто')
   // console.log(event)
 })
 
 // Додаємо обробник події для mouseup
-mouseArea.addEventListener('mouseup', (event) => {
+clickArea.addEventListener('mouseup', (event) => {
   console.log('Подія mouseup: Кнопку миші відпущено')
   // console.log(event)
 })
